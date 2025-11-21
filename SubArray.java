@@ -21,21 +21,21 @@ public class SubArray{
 		int i=0,j =0;
 		while(j<a.length)
 		{
-				if(sum == target){
+			if(sum < target){
+					sum+=a[j];
+					j++;
+				}
+				while(i<j){
+					if(sum == target){
 					System.out.printf("(%d...%d) -- a[%d]..a[%d]",a[i],a[j],i,j);
 					j++;
-					sum+=a[j];
-					
-				}
-				else if(sum < target){
-					sum+=a[j];
-					j++;
+					sum+=a[j];	
 				}
 				else if(sum > target){
 					sum-=a[i];
 					i++;
 				}
-			
+			}
 		}
 		
 	}
