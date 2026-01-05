@@ -13,14 +13,25 @@ public class LongestSubArraySizeSum{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Array Element");
 		int a[] = new Int[5];
-		
-		for(int i =0; i<a.length; i)
+		System.out.println("Enter the value of k");
+		for(int i =0; i<a.length; i++)
 		{
 			a[i] = sc.nextInt();
 		}
 		
 		int i= 0, j=0;
-		while(j <= a.length)
+		while(j<= a.length){
+			int sum = 0;
+			if(sum <= k){
+				sum+=a[j];
+				j++;
+			}
+			if(sum >= k){
+				sum-=a[i];
+				i++;
+			}
+			
+		}
 	}
 	
 }
