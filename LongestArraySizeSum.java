@@ -19,14 +19,17 @@ public class LongestSubArraySizeSum{
 			a[i] = sc.nextInt();
 		}
 		
-		int i= 0, j=0;
+		int i= 0, j=0 maxJ=0;
 		while(j<= a.length){
 			int sum = 0;
 			if(sum <= k){
 				sum+=a[j];
 				j++;
+				if(maxJ < (j - i)){
+					maxJ= (j - i);
+				}
 			}
-			if(sum >= k){
+			else if(sum > k){
 				sum-=a[i];
 				i++;
 			}
