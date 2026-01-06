@@ -12,29 +12,27 @@ public class LongestSubArraySizeSum{
 	public static void main(String...x){
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Array Element");
-		int a[] = new Int[5];
-		System.out.println("Enter the value of k");
+		int a[] = new int[5];
+		
 		for(int i =0; i<a.length; i++)
 		{
 			a[i] = sc.nextInt();
 		}
-		
-		int i= 0, j=0 maxJ=0;
-		while(j<= a.length){
+		System.out.println("Enter the value of k");
+		int k = sc.nextInt();
+		int i= 0, j=0, maxJ=0;
+		while(j< a.length ){
 			int sum = 0;
 			if(sum <= k){
 				sum+=a[j];
 				j++;
-				if(maxJ < (j - i)){
-					maxJ= (j - i);
-				}
 			}
 			else if(sum > k){
 				sum-=a[i];
-				i++;
+				i++;	
 			}
-			
 		}
+		System.out.println("The Maximum sub array size is : "+ maxJ);
 	}
 	
 }
