@@ -10,5 +10,9 @@ public class Triplets{
 	public static void main(String x[]){
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter array element");
+		int a[]= new int[]{-1, 0, 1, 2, -1, -4};
+		for(int i=0; i< a.length; i++){
+			
+		}
 	}
 }
