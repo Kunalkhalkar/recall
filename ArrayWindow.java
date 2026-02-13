@@ -14,6 +14,7 @@ public class ArrayWindow{
 		
 		for(int i=0; i<a.length; i++){
 			a[i] = sc.nextInt();	
+			
 		}
 		
 		int i=0, j=1;
