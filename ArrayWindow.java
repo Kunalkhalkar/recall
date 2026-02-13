@@ -28,6 +28,7 @@ public class ArrayWindow{
 		}
 		
 		while(j < a.length){
+			
 			j++;
 		}
 		
