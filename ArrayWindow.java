@@ -23,7 +23,7 @@ public class ArrayWindow{
 		int i=0, j=1;
 		
 		if(a.length < 1){
-			System.out.println("array length is zero");
+			System.out.println("array length is zero can't performm action");
 			System.exit();
 		}
 		
