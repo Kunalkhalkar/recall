@@ -26,6 +26,7 @@ public class ArrayWindow{
 			System.out.println("array length is zero");
 			System.exit();
 		}
+		
 		while(j < a.length){
 			j++;
 		}
