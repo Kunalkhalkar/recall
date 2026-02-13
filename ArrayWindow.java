@@ -7,6 +7,7 @@ Output: 6.  (from subarray [4,-1,2,1])
 */
 import java.util.*;
 public class ArrayWindow{
+	
 	public static void main(String ...x){
 		Scanner sc = new Scanner(System.in);
 		int a[] = new int[9];
@@ -26,7 +27,7 @@ public class ArrayWindow{
 			System.exit();
 		}
 		while(j < a.length){
-			
+			j++;
 		}
 		
 	}
