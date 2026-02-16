@@ -18,7 +18,7 @@ public class ArrayWindow{
 			a[i] = sc.nextInt();	
 		}
 		
-		int i=0, j=0, sum =0;
+		int i=0, j=0, sum =0 ,osum =0;
 		
 		if(a.length < 1){
 			System.out.println("array length is zero can't perform action");
@@ -26,8 +26,11 @@ public class ArrayWindow{
 		}
 		
 		while(j < a.length){
+			osum = sum;
 			sum += a[j];
-			if()
+			if(sum > osum){
+				osum = sum;
+			}
 			j++;
 		}
 		
