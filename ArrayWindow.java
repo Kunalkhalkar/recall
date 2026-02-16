@@ -26,8 +26,9 @@ public class ArrayWindow{
 		}
 		
 		while(j < a.length){
-			osum = sum;
+
 			sum += a[j];
+			
 			if(sum > osum){
 				osum = sum;
 			}
