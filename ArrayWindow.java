@@ -15,20 +15,19 @@ public class ArrayWindow{
 		System.out.println("Enter the element in array");
 		
 		for(int i=0; i<a.length; i++){
-			
 			a[i] = sc.nextInt();	
-			
 		}
 		
-		int i=0, j=1;
+		int i=0, j=0, sum =0;
 		
 		if(a.length < 1){
-			System.out.println("array length is zero can't performm action");
+			System.out.println("array length is zero can't perform action");
 			System.exit();
 		}
 		
 		while(j < a.length){
-			
+			sum += a[j];
+			if()
 			j++;
 		}
 		
