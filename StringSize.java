@@ -9,8 +9,8 @@ public class StringSize{
 		String str = sc.nextLine();
 		
 		int count = 0;
-		for(int i=0; i<str.length(); i++){
-			count++;
+		for(int i=0; i<str.length(); i++){ 
+			count++; // counts even the spaces in between
 		}
 		System.out.println("Size of String is : "+count);
 	}
