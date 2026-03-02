@@ -13,25 +13,28 @@ import java.util.*;
 public class College{
 	public static void main(String...x){
 		Scanner sc = new Scanner(System.in);
-		Student students[] = new Student[5];
 		
 		int id;
 		String name;
 		float marks;
 		
-		for(int i= 0; i<students.length; i++){
+		ArrayList students = new ArrayList();
+		
+		for(int i= 0; i<5; i++){
 		System.out.println("Enter id, name, marks of student");
+			
 		id = sc.nextInt();
-		name = sc.nextLine();
+		name = sc.next();
 		marks = sc.nextFloat();
 	
-		students[i] = new Student(id, name, marks);
+		students.add(new Student(id, name, marks));
 		}
-		
+		Collections.sort(students);
+		System.out.println(students);
 	}
 }
 
-class Student{
+class Student implements Comparable<Student>{
 	private int id; 
 	private String name;
 	private float marks;
@@ -40,5 +43,13 @@ class Student{
 		this.id = id;
 		this.name = name;
 		this.marks = marks;
+	}
+	
+	public int compareTo(Student s){
+		return Double.compare(s.marks, this.marks);
+	}
+	
+	public String toString(){
+		return (id + " "+ name +" "+ marks);
 	}
 }
