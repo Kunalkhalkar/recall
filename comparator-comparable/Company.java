@@ -6,7 +6,19 @@ Sorting Map by value
 Sorting custom objects with 3 conditions
 */
 class Employee implements Comparable<Emplpoyee>{
+	int id;
+	String name;
+	int salary;
 	
+	Employee(int id, String name, int salary){
+		this.id = id;
+		this.name = name;
+		this.salary = salary;
+	}
+	
+	public int compareTo(Employee e){
+		
+	}
 }
 public class Company{
 	public static void main(String ...x){
