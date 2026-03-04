@@ -17,7 +17,11 @@ class Employee implements Comparable<Emplpoyee>{
 	}
 	
 	public int compareTo(Employee e){
-		
+		return Double.compare(s.salary, this.salary);
+	}
+	
+	public String toString(){
+		return (id + " "+ name +" "+ salary);
 	}
 }
 public class Company{
