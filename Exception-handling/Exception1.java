@@ -14,7 +14,7 @@ public class Exception1{
 			}
 			catch(InputMismatchException ex){
 				System.out.println("you have entered wrong data try again");
-				sc.next();
+				sc.next(); // we used sc.next() to reset the previous input from scanner buffer
 			}
 		}
 	}
