@@ -43,7 +43,6 @@ class Student implements Comparable<Student>{
 		this.id = id;
 		this.name = name;
 		this.marks = marks;
-		
 	}
 	
 	public int compareTo(Student s){
@@ -54,5 +53,3 @@ class Student implements Comparable<Student>{
 		return (id + " "+ name +" "+ marks);
 	}
 }
-
-class 
