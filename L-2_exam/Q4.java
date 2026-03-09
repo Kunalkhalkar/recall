@@ -3,3 +3,9 @@
 Input: programming
 Output: Second Non-Repeating Character = o	
 */
+import java.util.*;
+public class Q4{
+	public static void main(String ...x){
+		
+	}
+}
