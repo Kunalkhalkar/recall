@@ -6,7 +6,8 @@ Output: Second Non-Repeating Character = o
 import java.util.*;
 public class Q4{
 	public static void main(String ...x){
+		System.out.println("Enter the string");
+		Scanner sc = new Scanner(System.in);
 		String str = sc.nextLine();
-		
 	}
 }
