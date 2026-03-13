@@ -9,6 +9,6 @@ public class Q4{
 		System.out.println("Enter the string");
 		Scanner sc = new Scanner(System.in);
 		String str = sc.nextLine();
-		for(int i= 0;)
+		for(int i= 0; i< str.length(); i++){}
 	}
 }
