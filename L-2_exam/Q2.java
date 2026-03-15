@@ -17,6 +17,6 @@ public class Q2{
 		for(int i =0; i<a.length; i++){
 			a[i] = sc.nextInt();
  		}
-		System.out.println();
+		System.out.println("sub array");
 	}
 }
