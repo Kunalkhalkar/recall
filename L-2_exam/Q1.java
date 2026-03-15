@@ -26,6 +26,6 @@ public class Q1{
 				first = a[i];
 			}
 		}
-		System.out.println(third);
+		System.out.println("this is third largest : "+third);
 	}
 }
