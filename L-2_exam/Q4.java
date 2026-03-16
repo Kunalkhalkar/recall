@@ -10,7 +10,9 @@ public class Q4{
 		Scanner sc = new Scanner(System.in);
 		String str = sc.nextLine();
 		for(int i= 0; i< str.length(); i++){
-			if(){}
+			if(str.charAt(i)){
+				
+			}
 		}
 	}
 }

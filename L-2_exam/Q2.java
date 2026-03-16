@@ -18,5 +18,8 @@ public class Q2{
 			a[i] = sc.nextInt();
  		}
 		System.out.println("sub array");
+		
+		int i=0, j=1;
+		while(){}
 	}
 }
