@@ -23,5 +23,6 @@ public class Q3{
 		
 		int i=0, j=1;
 		while(){}
+		
 	}
 }
