@@ -44,10 +44,12 @@ public class LengthOfLastWord{
 		//this is another approch
 		String n = str.trim();
 		int i = n.length()-1, count =0;
+		
 		while(i >= 0 && n.charAt(i) != ' '){
 			count++;
 			i--;
 		}
+		
 		return count;
 		
 	}
