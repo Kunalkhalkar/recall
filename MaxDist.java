@@ -25,7 +25,7 @@ public class MaxDist{
 		while(i<arr1.length && j <arr2.length){
 			if(arr1[j] <= arr2[i]) 
 			{
-				maxDis = Math.max(maxDis, j-i);	
+				maxDis = Math.max(maxDis, j - i);	
 				
 				j++;
 			}
