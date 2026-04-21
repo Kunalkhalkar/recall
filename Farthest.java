@@ -19,15 +19,23 @@ public class Farthest{
 	}
 	
 	public static int findMaxDist(int ...arr){
-		int i=0, j=1, maxDist =0;
-		
-		while(i < j){
-			if(arr[i] != arr[j]){
-				maxDist = Math.abs(i - j);
-				j++;
-			}
-			i++;
-		}
-		return maxDist;
+		 int n = colors.length;
+        int maxDist = 0;
+
+        for (int j = n - 1; j >= 0; j--) {
+            if (colors[j] != colors[0]) {
+                maxDist = j;
+                break;
+            }
+        }
+
+        for (int i = 0; i < n; i++) {
+            if (colors[i] != colors[n - 1]) {
+                maxDist = Math.max(maxDist, n - 1 - i);
+                break;
+            }
+        }
+
+        return maxDist;
 	}
 }
