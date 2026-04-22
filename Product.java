@@ -17,5 +17,6 @@ public class Product{
 		
 		prod *= num % 10;
 		return showProduct(num/10, prod);
+		
 	}
 }
