@@ -7,7 +7,6 @@ public class Product{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the number ");
 		int a= sc.nextInt();
-		
 		System.out.println(showProduct(a, 1));
 	}
 	
