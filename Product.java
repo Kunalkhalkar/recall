@@ -14,7 +14,8 @@ public class Product{
 		if(num == 0){
 			return prod;
 		}
-		prod *= num%10;
+		
+		prod *= num % 10;
 		return showProduct(num/10, prod);
 	}
 }
