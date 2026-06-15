@@ -7,7 +7,6 @@ public class Practice{
 			System.out.println("Enter the data you want to store");
 			String data = sc.nextLine();
 			DataStore ds = new DataStore(data);
-			
 			System.out.println(ds.getData()+" "+ i);
 			i--;
 		}
