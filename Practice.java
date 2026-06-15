@@ -4,7 +4,6 @@ public class Practice{
 		Scanner sc = new Scanner(System.in);
 		int i=3;
 		while(i >= 0){
-			
 			System.out.println("Enter the data you want to store");
 			String data = sc.nextLine();
 			
