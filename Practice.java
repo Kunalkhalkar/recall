@@ -6,8 +6,8 @@ public class Practice{
 		while(i >= 0){
 			System.out.println("Enter the data you want to store");
 			String data = sc.nextLine();
-			
 			DataStore ds = new DataStore(data);
+			
 			System.out.println(ds.getData()+" "+ i);
 			i--;
 		}
