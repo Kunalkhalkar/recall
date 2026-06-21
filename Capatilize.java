@@ -16,12 +16,13 @@ public class Capatilize{
 		StringBuilder sb = new StringBuilder("");
 		
 		for(int i =0; i< str.length(); i++){
-			if(str.charAt(i) >= 'a' && str.charAt(i) <= 'z'){
-				sb.append((char)(str.charAt(i)-32
+			char a = str.charAt(i)
+			if(a >= 'a' && a <= 'z'){
+				sb.append((char)(a -32
 				));
 			}
 			else{
-				sb.append(str.charAt(i));
+				sb.append(a);
 			}
 		}
 		return sb.toString();
