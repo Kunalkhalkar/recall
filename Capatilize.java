@@ -10,6 +10,7 @@ public class Capatilize{
 		System.out.println(capitalize(str));
 	}
 	
+	//another method for perform capitalize operation
 	public static String capitalize(String str){
 		if(str == null) return null;
 		
