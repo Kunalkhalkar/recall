@@ -13,6 +13,7 @@ public class ReverseArray{
 		for(int i=0; i < arr.length; i++){
 			arr[i]  = Integer.parseInt(br.readLine());
 		}
+		System.out.println("Array without reverse");	
 		System.out.println(Arrays.toString(arr));
 		System.out.println("reversed Array using two pointer approch");
 	}
