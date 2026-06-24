@@ -14,7 +14,7 @@ public class ReverseArray{
 			arr[i]  = Integer.parseInt(br.readLine());
 		}
 		System.out.println(Arrays.toString(arr));
-		System.out
+		System.out.println("reversed Array using two pointer approch");
 	}
 	
 }
