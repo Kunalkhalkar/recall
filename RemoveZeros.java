@@ -15,7 +15,7 @@ public class RemoveZeros{
 		
 		//printing the original array
 		System.out.println(Arrays.toString(a));
-		removeZeros(a);
+		removeZeros(a); //function calling 
 	}
 	public static void removeZeros(int[] a){
 		if(a.length ==0) System.out.println("Array is empty");
