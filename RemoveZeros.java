@@ -13,7 +13,8 @@ public class RemoveZeros{
 			a[i] = sc.nextInt();
 		}
 		
-		// System.out.println(Arrays.toString(a));
+		//printing the original array
+		System.out.println(Arrays.toString(a));
 		removeZeros(a);
 	}
 	public static void removeZeros(int[] a){
@@ -36,8 +37,11 @@ public class RemoveZeros{
 			}
 		}
 		//printing the result
+		System.out.print("[");
 		for(int k =0; k< i; k++){
 			System.out.print(a[k]+ " ");
 		}
+		System.out.print("]");
+		
 	}
 }
