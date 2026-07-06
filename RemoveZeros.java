@@ -19,7 +19,7 @@ public class RemoveZeros{
 	public static void removeZeros(int[] a){
 		if(a.length ==0) System.out.println("Array is empty");
 		int i= 0, j=0;
-		
+		//this loop checks the zeros and send it to the end
 		while(j < a.length){
 			if(a[i] == 0){
 				if(a[j] != 0){
@@ -39,6 +39,5 @@ public class RemoveZeros{
 		for(int k =0; k< i; k++){
 			System.out.print(a[k]+ " ");
 		}
-		// System.out.println(Arrays.toString(a));
 	}
 }
