@@ -42,4 +42,6 @@ public class RemoveZerosFromArray{
 			System.out.print(a[k]+ " ");
 		}
 		System.out.print("]");
-		
+			
+	}
+}
