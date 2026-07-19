@@ -16,8 +16,8 @@ public class MaxSumSubArray{
 		while(j < a.length){
 			temp1 = a[i];
 			temp2 = a[j];
-			if(temp1 + temp2 > maxSum){
-			
+			if(){
+				
 			}
 		}
 	}
