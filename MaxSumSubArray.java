@@ -17,6 +17,7 @@ public class MaxSumSubArray{
 			temp1 = a[i];
 			temp2 = a[j];
 			if(temp1 + temp2 == maxSum){
+				j++;
 				
 			}
 		}
