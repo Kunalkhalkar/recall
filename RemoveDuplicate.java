@@ -15,8 +15,8 @@ public class RemoveDuplicate{
 			arr[i] = sc.nextInt();
 		}
 		
-		for(int i =0, j=arr.length - 1; i<arr.length; ){
-			
+		for(int i = 0, j=arr.length - 1, k = 0; i<arr.length; ){
+			if(arr[i] == )
 		}
 		
 	}
