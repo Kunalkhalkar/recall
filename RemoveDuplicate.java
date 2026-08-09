@@ -16,7 +16,9 @@ public class RemoveDuplicate{
 		}
 		//if(arr.length < 2) return;
 		for(int i = 0, j=arr.length - 1, k = 1; i<arr.length; ){
-			if(arr[i] == arr[k])
+			if(arr[i] == arr[k]){
+				
+			}
 		}
 		
 	}
