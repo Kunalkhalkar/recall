@@ -19,8 +19,7 @@ public class RemoveDuplicate{
 			if(arr[i] == arr[k]){
 				arr[k] = arr[j];
 				i++;
-				j++;
-			}
+			} 
 		}
 		
 	}
