@@ -14,7 +14,6 @@ public class Capatilize{
 		if(str == null) return null;
 		
 		StringBuilder sb = new StringBuilder("");
-		
 		for(int i =0; i< str.length(); i++){
 			char a = str.charAt(i)
 			if(a >= 'a' && a <= 'z'){
