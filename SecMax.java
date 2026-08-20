@@ -14,7 +14,8 @@ public class SecMax{
 		int max = Integer.MIN_VALUE, secMax = Integer.MIN_VALUE;
 		
 		for(int i=0; i<arr.length; i++){
-			if(arr[i] > max ){
+		
+		if(arr[i] > max ){
 				secMax = max;
 				max = arr[i];
 			}
