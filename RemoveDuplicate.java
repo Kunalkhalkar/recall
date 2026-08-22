@@ -8,7 +8,6 @@ public class RemoveDuplicate{
 		Scanner sc = new Scanner(System.in);
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("Enter the array elements");
 
 		int arr[] = new int[5];		
