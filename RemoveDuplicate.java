@@ -22,7 +22,6 @@ public class RemoveDuplicate{
 			if(arr[i] == arr[k]){
 				i++;
 				k++;
-				
 			} 
 		}
 		
